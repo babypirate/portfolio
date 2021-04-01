@@ -297,7 +297,7 @@ section {
 
 .landingpage::before {
 	content: "";
-	background-image: url(../img/homepage/hero3.png);
+	background-image: url(../img/homepage/hero4.png);
   position: absolute;
   top: 0px;
   right: 0px;
@@ -313,11 +313,6 @@ section {
 .landingpage--about::before {
 	content: "";
 	background-image: url(../img/about-bg.png);
-  position: absolute;
-	width: 1405.43px;
-	height: 1384.31px;
-	left: 467px;
-	top: 80.69px;
 }
 
 
@@ -349,11 +344,13 @@ section {
 
 @media (min-width: 1200px) {
 	.landingpage {
-		height:90vh;
+		height:100vh;
 	}
 	 .landingpage::before {
- 		background-size: contain;
- 		height: 110vh; 
+ 		background-size: cover;
+ 		height: 110%; 
+ 		background-position: bottom;
+ 		top:-50px;
  }
 }
 
@@ -407,7 +404,7 @@ section {
 }
 
 .portfolio__item {
-	margin: 4rem auto;
+	margin: 2rem auto;
 	width:100%;
 	color: var(--clr-light);
 	/*background: linear-gradient(180deg, rgba(254, 172, 94, 0.5) 0%, rgba(199, 121, 208, 0.5) 50%, rgba(75, 192, 200, 0.5) 100%);*/
@@ -437,13 +434,13 @@ section {
 
 .portfolio__number {
 	position: absolute;
-	top: 40%;
   font-family: var(--ff-serif);
   font-weight: var(--fw-bold);
   font-size: 13rem;
   line-height: normal;
   letter-spacing: -0.05em;
   color: rgba(255, 255, 255, 0.2);
+  margin:0;
 }
 
 .portfolio__btn {
@@ -519,8 +516,8 @@ section {
 	.portfolio__number {
     font-size: 20rem;
     top: auto;
-    bottom: -25rem;
-    grid-area: number;
+/*    bottom: -25rem;*/
+/*    grid-area: number;*/
 	}
 
 	.portfolio__text {
@@ -559,9 +556,7 @@ section {
 
 .portfolio__item--intermezzo .portfolio__number {
     right: 1rem;
-    top: -12rem;
- /* right: 3rem;
-  bottom: calc(-13rem - 50px);*/
+    top: 20%;
 }
 
 .portfolio__item--intermezzo .portfolio__text {
@@ -596,7 +591,6 @@ section {
 	}
 
 	.portfolio__item--intermezzo .portfolio__number {
-    top: calc(-20rem - 30px);
     right: 4rem;
 	}
 
@@ -641,7 +635,7 @@ section {
 		grid-template-rows: auto;
 		grid-template-areas: 
 			"header img" 
-			"number img";
+			"header img";
 	}
 
 	.portfolio__item--teamup .portfolio__number {
@@ -703,7 +697,7 @@ section {
 		grid-template-rows: auto;
 		grid-template-areas: 
 			"img header" 
-			"img number";
+			"img header";
 	}
 
 	.portfolio__item--cpy .portfolio__text {
@@ -720,7 +714,7 @@ section {
 
   .portfolio__item__img--cpy {
   	bottom: auto;
-    left: auto;
+  	left: -60px;
     max-width: 123%;
     place-self: center;
 	}
@@ -737,7 +731,6 @@ section {
 
 .portfolio__item--wildtracker .portfolio__number {
 	left: 1rem;
-	top: 40%;
 }
 
 .portfolio__item--wildtracker::before {    
@@ -753,7 +746,7 @@ section {
 
 @media (min-width: 600px) {
 	.portfolio__item__img--wildtracker {
-	width: 750px;
+	width: 550px;
   bottom: -5%;
   right: -11%;
 	}
@@ -775,11 +768,8 @@ section {
   }
 
   .portfolio__item__img--wildtracker {
-  	bottom: auto;
-    right: auto;
-    max-width: 120%;
-    width: auto;
-    place-self: center;
+    bottom: auto;
+    right: 0;
 	}
 }
 
@@ -821,11 +811,11 @@ section {
 @media (min-width: 900px) {
 	.portfolio__item--johnny {
 		display:grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 2fr 1fr;
 		grid-template-rows: auto;
 		grid-template-areas: 
-			"img number" 
-			"header header";
+			"img header" 
+			"img header";
 	}
 
 	.portfolio__item--johnny .portfolio__text {
@@ -839,8 +829,7 @@ section {
 
 	.portfolio__item--johnny .portfolio__number {
     right: 4rem;
-    bottom: auto;
-    top: -21rem;
+    bottom: 4rem;
 	}	
 
   .portfolio__item__img--johnny {
@@ -888,8 +877,8 @@ section {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto;
 		grid-template-areas: 
-			"img img" 
-			"header number";
+			"header img" 
+			"header img";
 	}
 
 	.portfolio__item--laboheme .portfolio__text {
@@ -898,8 +887,8 @@ section {
 	}
 
 	.portfolio__item--laboheme .portfolio__number {
- 		left:auto;
- 		right:4rem;
+ 		left: 4rem;
+    bottom: 4rem;
 	}	
 
   .portfolio__item__img--laboheme {

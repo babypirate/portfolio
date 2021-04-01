@@ -13,27 +13,9 @@
 </head>
 <body>
 	<div class="landingpage">
-		<header>
-			<!-- navbar elements -->
-			<div id="nav-placeholder">
-				<?php include "nav.html" ?>
-			</div>
-			<script src="js/index.js">
-			</script>
-				<!-- <div class="logo">
-					<img src="img/HanlingWang_logo.png" alt="">
-				</div>
-				<button class="nav-toggle" aria-label="toggle navigation">
-					<span class="hamburger"></span>
-				</button>
-				<nav class="nav">
-					<ul class="nav__list">
-						<li class="nav__item"><a href="#" class="nav__link">Works</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Resume</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">About</a></li>
-					</ul>
-				</nav> -->
-			</header>
+		
+			<!-- Include Header -->
+				<?php include "header.html" ?>
 		
 			<!-- Intro -->
 			<section class="intro">
