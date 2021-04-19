@@ -20,21 +20,22 @@
 		
 			<!-- Intro -->
 			<section class="intro">
-				<h1 class="section__title section__title--intro-1">
+				<h1 class="intro__title intro__title--intro-1">
 					I am Hanling Wang,
 				</h1>
-				<h1 class="section__title section__title--intro-2">
+				<h1 class="intro__title intro__title--intro-2">
 					a UX designer.
 				</h1>
 				<p class="intro__body">
-					I am passionate about crafting <span class="high-light">thoughtful user experience</span>. I believe that good design can <span class="high-light">make a positive difference</span> and <span class="high-light">enrich people’s lives</span>.
+					I am passionate about crafting <span class="high-light">thoughtful user experience</span>.I believe that good design can <span class="high-light">make a positive difference</span> and <span class="high-light">enrich people’s lives.</span>
+					<br>Formerly a UX design intern @ <a href="https://www.asml.com/en">ASML</a> PEG GUI Team.
 				</p>
 			</section>
 	</div>	
 
 	<!-- Selected Works -->
 	<section class="portfolio">
-	<!-- 	<h3 class="section__title section__title--portfolio">
+	<!-- 	<h3 class="">
 			Selected Works
 		</h3>
  -->
@@ -44,7 +45,7 @@
 					<h1 class="portfolio__title">Intermezzo</h1>
 					<h5 class="portfolio__subtitle">Shaping the Future of Mobility, Architecture, and Technology</h5>
 					<p class="portfolio__tag">Automotive | Architecture | UX/UI Design</p>
-					<a href="intermezzo.php" class="portfolio__btn">View Case Study</a>
+					<a href="intermezzo.php" class="portfolio__btn">Forward to 2050</a>
 				</div>
 				<p class="portfolio__number">01</p>	
 				<div class="portfolio__item__img--intermezzo">
@@ -60,7 +61,7 @@
 				<h1 class="portfolio__title">TeamUp</h1>
 				<h5 class="portfolio__subtitle">Build Better Habits Together</h5>
 				<p class="portfolio__tag">UX/UI Design</p>
-				<a href="teamup.php" class="portfolio__btn">View Case Study</a>
+				<a href="teamup.php" class="portfolio__btn">Try it now</a>
 			</div>
 			<p class="portfolio__number">02</p>
 			<img class="portfolio__item__img portfolio__item__img--teamup" src="img/homepage/teamup.png" alt="TeamUp mobile app mockup">	
@@ -71,9 +72,9 @@
 			<div class="portfolio__text">
 				<h1 class="portfolio__title">CorePower</h1>
 				<h1 class="portfolio__title">Yoga</h1>
-				<h5 class="portfolio__subtitle">User Experience + User Interface Redesign</h5>
+				<h5 class="portfolio__subtitle">Find the Right Yoga Class For You</h5>
 				<p class="portfolio__tag">UX/UI Design</p>
-				<a href="corepower.php" class="portfolio__btn">View Case Study</a>
+				<a href="corepower.php" class="portfolio__btn">Find a yoga class</a>
 			</div>
 			<p class="portfolio__number">03</p>
 			<img class="portfolio__item__img portfolio__item__img--cpy" src="img/homepage/corepower.png" alt="CorePower Yoga mobile app mockup">	
@@ -82,10 +83,10 @@
 			<!-- WildTracker -->
 		<div class="portfolio__item portfolio__item--wildtracker">
 			<div class="portfolio__text">
-				<h1 class="portfolio__title">Wild Tracker</h1>
+				<h1 class="portfolio__title portfolio__title--wildtracker">Wild Tracker</h1>
 				<h5 class="portfolio__subtitle">Track and Record Wildlife</h5>
 				<p class="portfolio__tag">Mobile App Design and Development<p>
-				<a href="wildtracker.php" class="portfolio__btn">View Case Study</a>
+				<a href="wildlife.php" class="portfolio__btn">Start tracking</a>
 			</div>
 			<p class="portfolio__number">04</p>
 			<img class="portfolio__item__img portfolio__item__img--wildtracker" src="img/homepage/wildtracker.png" alt="wild tracker mobile app mockup">	
@@ -97,7 +98,7 @@
 				<h1 class="portfolio__title">Johnny's<br>Woodworking</h1>
 				<h5 class="portfolio__subtitle">Online Wood Craft Store</h5>
 				<p class="portfolio__tag">Responsive Web Design and Development</p>
-				<a href="johnny's woodworking.php" class="portfolio__btn">View Case Study</a>
+				<a href="johnny's woodworking.php" class="portfolio__btn">Start browsing</a>
 			</div>
 			<p class="portfolio__number">05</p>
 			<img class="portfolio__item__img portfolio__item__img--johnny" src="img/homepage/johnny.png" alt="johnny's woodworking mobile app mockup">	
@@ -109,7 +110,7 @@
 				<h1 class="portfolio__title">La Boheme</h1>
 				<h5 class="portfolio__subtitle">Rebranding a French restaurant</h5>
 				<p class="portfolio__tag">UI/UX Design, Graphic Design</p>
-				<a href="laboheme.php" class="portfolio__btn">View Case Study</a>
+				<a href="laboheme.php" class="portfolio__btn">Experience La Boheme</a>
 			</div>
 			<p class="portfolio__number">06</p>
 			<img class="portfolio__item__img portfolio__item__img--laboheme" src="img/homepage/la boheme.png" alt="La Boheme mobile app mockup">	
@@ -117,16 +118,8 @@
 	</section>
 
 	<!-- Footer -->
-	<footer class="footer">
-		<div class="footer__text">
-			<p class="footer__p">Like my works? Want to know more?<br>Email
-			<a href="mailto:hanlingw0212@gmail.com" class="footer-link">hanlingw0212@gamil.com</a>
-			and let's talk.
-			</p>
-			<p class="footer__p footer__p--small">Designed and Handcoded with &#129300;and &#127861;  </p>
-			<p class="footer__p footer__p--small">&#169 2021 Hanling Wang</p>
-		</div>
-	</footer>
+	<!-- Include Footer -->
+				<?php include "parts/footer.html" ?>
 
 	<!-- <script src="js/index.js"></script> -->
 

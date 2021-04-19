@@ -32,14 +32,25 @@
 		font-size: 7rem;
 	}
 
-	.section__content {
-		display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    align-items: center;
+
+	.section__flexcontent {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
+	.section__flexcontent{
+		max-width: 1200px;
+		margin:24px auto;
+		padding: 0.5em;
+	}
+
+ 	.content__item {
+ 		flex: 1;
+ 	}
+
 	.about__body {
-		grid-column: 1/7;
+		
 	}
 
 	.about-img {

@@ -1,0 +1,230 @@
+/*cpy style*/
+.portfolio__item--cpy {
+	background: #ff8200;
+}
+
+.yellow {
+	background-color: #f9e0c8;
+}
+
+.black {
+	background-color: #181920;
+}
+
+.light-black {
+	background-color: #1b1b28;
+}
+
+.section__flexcontent {
+	padding: 1em;
+}
+
+h4.section__title {
+	color: black;
+}
+
+.hero__text {
+	top:100px;
+}
+
+.main_title .number {
+  color: rgb(255 180 102 / 29%);
+}
+
+.main_title .title {
+	color: rgba(255, 130, 2, 1);
+}
+
+
+/*overview*/
+.overview .section__flexcontent {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*intro*/
+.cpy_app {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/*problem*/
+.section__flexcontent--problem {
+	border-bottom: 1px solid var(--clr-medium);
+  padding-bottom: 40px;
+}
+
+.problem h5 {
+	color: var(--orange);
+}
+
+.goals .content__item {
+	max-width: 300px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.goal-icon1 {
+	max-width: 164px;
+}
+
+.goal-icon2 {
+	max-width: 226px;
+}
+
+.goal-icon3 {
+	max-width: 164px;
+}
+
+.demographic-research .content__item + .content__item {
+	margin-left: 2em;
+}
+
+.demographic-data .content__item {
+	max-width: 200px;
+}
+
+.keyfindings {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.keyfindings p {
+	background-color: var(--cpy-yellow);
+	color: var(--clr-dark);
+	padding: 2em;
+	margin: 0.2em;
+	border-radius: 0.2em;
+}
+
+.app-reviews {
+	background-color: #F9E0C8;
+}
+
+
+.app-review-imgs img{
+	max-width: 400px;
+	margin: 0 auto;
+  padding: 0.5em;
+}
+
+/*.persona-img {
+	margin:1em;
+}*/
+
+.persona .section__flexcontent {
+	margin: 0 auto;
+}
+
+.persona .persona-1 {
+	margin-top: 24px;
+}
+
+.design_requirements {
+	justify-content: flex-start;
+}
+
+.design_requirements .content__item {
+	max-width: 400px; 
+	padding-right: 2em;
+	margin: 0 auto;
+}
+
+.design_requirements h5 {
+	font-weight: var(--fw-med);
+}
+
+.feedback {
+	margin: 0 auto;
+}
+
+.feedback .content__item+ .content__item {
+	margin-left:1em;
+}
+
+.iteration-img {
+	max-width: 800px;
+}
+
+.deliverables h4 {
+	color: white;
+}
+
+.prototype-gif {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+
+/*Responsive*/
+@media (min-width: 600px) {
+	.hero__img--cpy {
+		left: 0;
+    width: 100%;
+	}
+}
+
+@media (min-width: 900px) {
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+body {
+	font-size: 1rem;
+}
+
+.hero__item--cpy {
+  display:flex;
+	}
+
+.hero__item--cpy .hero__text {
+	bottom: 0;
+	top: auto;
+}
+
+.hero__img--cpy {
+		top: -10%;
+    right: -20%;
+	  left: auto;
+	  overflow: hidden;
+	  transform: none;
+	  padding: 0;
+	  max-width: 80%;
+	}
+
+.problem1,
+.problem3 {
+	margin-right: 40px;
+}
+
+.problem2 {
+	margin-left: 40px;
+}
+
+.app-review-imgs {
+	display: flex;
+}
+
+.design_requirements, .feedback {
+  display: flex;
+}
+
+.design_requirements .content__item {
+	margin: 0;
+}
+}
+
+@media (min-width: 1100px) {
+	.casestudy__hero {
+
+	}
+	.hero__item--cpy .hero__text {
+		text-align:left; 
+	}
+}

@@ -16,24 +16,27 @@
 	<div class="landingpage landingpage--about">
 		<?php include "parts/header.html" ?>
 
-	<section class="about container">
-		<h1 class="section__title section__title--about-1">
-			Hanling
-		</h1>
-		<h1 class="section__title section__title--about-2">
-			Wang
-		</h1>
-		<div class="section__content">
-			<p class="about__body">
-					Hey, nice to meet you! My name is Hanling. I am a UX designer based in San Francisco Bay Area. I am passionate about turning complex tasks into intuitive solutions for people. My teaching background makes me a good listener and observer. This enables me to empathize with my users and understand their pain points. I am a creative thinker and a strong visualizer as well. I strive to deliver the best user experience with innovative solutions and aesthetically pleasing designs. <br>
-				I am also a wildlife lover and nature enthusiast. I enjoy hiking during my free time. I also love snorkeling in the ocean. The beauty of nature is always my best inspiration.
-			</p>
-			<div class="about-img">
+	<section class="about">
+		
+		<div class="section__flexcontent">
+			<div class="content__item">
+				<h1 class="section__title section__title--about-1">
+					Hanling
+				</h1>
+				<h1 class="section__title section__title--about-2">
+					Wang
+				</h1>
+				<p class="about__body">
+						Hey, nice to meet you! My name is Hanling. I am a UX designer based in San Francisco Bay Area. I am passionate about turning complex tasks into intuitive solutions for people. My teaching background makes me a good listener and observer. This enables me to empathize with my users and understand their pain points. I am a creative thinker and a strong visualizer as well. I strive to deliver the best user experience with innovative solutions and aesthetically pleasing designs. <br>
+					I am also a wildlife lover and nature enthusiast. I enjoy hiking during my free time. I also love snorkeling in the ocean. The beauty of nature is always my best inspiration.
+				</p>
+			</div>
+			<div class="content__item about-img">
 				<img src="img/HanlingWang-profile.png" alt="">
 			</div>
 		</div>
 
-		<a href="mailto:hanlingw0212@gmail.com" class="about-link">Contact me</a>
+		
 	</section>
 		
 	</section>

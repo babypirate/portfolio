@@ -1,0 +1,135 @@
+.grey {
+	background-color: var(--clr-medium);
+}
+
+.green {
+	background: rgba(4, 166, 145, 0.1);
+}
+
+.main_title .number {
+	color:rgba(4, 166, 145, 0.3);
+}
+
+.main_title .title {
+	color:rgba(4, 166, 145);
+}
+
+.portfolio__item__img--wildtracker {
+	top: 20%;
+  bottom: 0;
+  right: 50px;
+  left: 20%;
+}
+
+.portfolio__item--wildtracker {
+	background: rgba(4, 166, 145, 0.8);
+}
+
+.portfolio__text {
+   top: 100px;
+}
+
+.wireflow {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.ui-design img {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 1em;
+}
+
+.final__img
+{
+	position: relative;
+}
+
+.mockup {
+	position: relative;
+  z-index: 100;
+}
+
+.mockup-back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.circle {
+	width: 80%;
+}
+
+.triangle {
+	width: 150%;
+  max-width: 200%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.circle-group {
+	width: 85%;
+}
+
+.rectangle {
+	max-width: 150%;
+  width: 150%;
+  left: -50%;	
+}
+
+.prototype {
+	width:375px;
+	height: 812px;
+}
+
+.iphone-frame {
+	position: relative;
+}
+
+.prototype-screen {
+  height: 80%;
+  width: 79%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 31px;
+  bottom: 0;
+  border-radius: 2rem;
+  position: absolute;
+  border: none;
+  z-index: 0;
+}
+
+
+/*.final__img::before {
+	content:"";
+	background-image: url(..img/wildtracker/circle.png);
+	position: absolute;
+}
+*/
+
+/*Responsive*/
+@media (min-width: 600px) {
+.portfolio__item__img--wildtracker {
+    width: 100%;
+    top:80px;
+    bottom: auto;
+    right: -200px;
+	}
+}
+
+@media (min-width: 900px) {
+.portfolio__item__img--wildtracker {
+    top: 50%;
+    transform: translatey(-50%);
+    right: -100px;
+ }
+}
+
+@media (min-width: 1400px) {
+.portfolio__item__img--wildtracker {
+    top:-200px;
+    transform:none;
+ }
+}
