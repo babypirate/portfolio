@@ -1059,4 +1059,7 @@ section {
 	color: var(--clr-accent);
 }
 
+.btn {
+	margin: 0 auto;
+}
 

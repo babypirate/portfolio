@@ -61,7 +61,7 @@
 				<h1 class="portfolio__title">TeamUp</h1>
 				<h5 class="portfolio__subtitle">Build Better Habits Together</h5>
 				<p class="portfolio__tag">UX/UI Design</p>
-				<a href="teamup.php" class="portfolio__btn">Try it now</a>
+				<a href="#" class="portfolio__btn">Coming Soon</a>
 			</div>
 			<p class="portfolio__number">02</p>
 			<img class="portfolio__item__img portfolio__item__img--teamup" src="img/homepage/teamup.png" alt="TeamUp mobile app mockup">	

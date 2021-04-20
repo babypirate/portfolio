@@ -511,29 +511,22 @@
 			<div class="content__item">
 				<h4 class="section__title">Automotive Design</h4>
 			</div>
-			<div class="flex-1"></div>
+			<div class="content__item flex-1">
+			</div>
 		</div>
-		<div class="section__flexcontent flex-center">
+
+		<div class="section__flexcontent">
 			<div class="content__item flex-1">
 				<h5 class="content__title underline_title">Adagio - exterior</h5>
 				<p class="content__copy">Designed by Nick Wright</p>
-			</div>
-			<div class="flex-2">
 				<img class="ideation-img-tech" src="img/intermezzo/vehicle-exterior.png" alt="">
 			</div>
-		</div>
-	</section>
-
-	<section class="casestudy__section">
-		<div class="section__flexcontent flex-reverse flex-center">
 			<div class="content__item flex-1 tr">
 				<h5 class="content__title underline_title">Adagio - interior</h5>
 				<p class="content__copy">Designed by Eugene Liu</p>
-			</div>
-			<div class="flex-2">
 				<img class="ideation-img-tech" src="img/intermezzo/vehicle-interior.png" alt="">
-			</div>
-		</div>		
+			</div>	
+		</div>	
 	</section>
 
 <!-- smart matrix -->

@@ -779,9 +779,11 @@
 		</div>
 	</div>
 
-	<div class="btn">
-		<a class="back-home-btn" href="index.php">Back to Home</a>
-	</div>
+
+		<div class="section__flexcontent btn">
+			<a class="back-home-btn" href="index.php">Back to Home</a>
+		</div>
+
 
 
 
