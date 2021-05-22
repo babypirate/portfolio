@@ -1,0 +1,428 @@
+
+.portfolio {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+.portfolio__card {
+  margin: 0 auto;
+  width: 100%;
+  color: var(--clr-blk);
+  transition: all 300ms ease-in;
+  box-shadow: 0 2px 44px 0 rgb(0 0 0 / 14%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.portfolio__card:hover {
+	transform: translateY(-20px);
+	box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.2), 0px 22px 35px rgba(0, 0, 0, 0.14), 0px 8px 42px rgba(0, 0, 0, 0.12);
+}
+
+.card__img {
+	height: 30vh;
+  object-fit: cover;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  opacity: 0.2;
+  mix-blend-mode: multiply;
+}
+
+.card__img-high {
+	height: 40vh;
+}
+
+.card__text {
+	background: white;
+  padding: 1rem;
+  flex: 1;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.card__title {
+	color: var(--clr-blk);
+	transition: transform 300ms ease-in-out;
+}
+
+.card__subtitle {
+  margin-top: 0;
+ 	font-weight: 300;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.card__overline {
+	font-size: 0.8rem;
+	margin-bottom: 0;
+	font-weight: var(--fw-med);
+}
+
+.card__tag {
+	margin: 0;
+  font-size: 0.8rem;
+}
+
+.card__btn {
+  color: black;
+  text-decoration: none;
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-med);
+  font-size: 1.2rem;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  transition: transform 200ms ease-in;
+  font-style: oblique;
+  display:inline-block;
+}
+
+.card__btn:hover {
+  transform:translateX(16px);
+}
+
+
+.card__number {
+  position: absolute;
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-bold);
+  font-size: 10rem;
+  line-height: normal;
+  letter-spacing: -0.05em;
+  color: rgb(0 178 176 / 17%);
+  margin: 0;
+  bottom: -2rem;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.number-right {
+	right: 1rem;
+}
+
+.img-group {
+	position: relative;
+	overflow: hidden;
+  box-shadow: 0px 1px #00000052;
+}
+
+.card__device {
+	position: absolute;
+	max-width: 600px;
+	bottom: 0;
+	z-index: 1;
+}
+
+.intermezzo {
+	background: linear-gradient(98.48deg, rgb(184 225 213) -9.08%, rgba(106, 130, 251, 0.5) 106.87%);
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.intermezzo .card__img {
+	opacity: 0.8;
+}
+
+.intermezzo .card__number {
+	color: #1999ba4f;
+}
+
+.intermezzo .card__btn {
+	color: #1999ba;
+}
+
+.overflow-card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.teamup.portfolio__card {
+ background: linear-gradient(98.48deg, rgba(252, 92, 125, 0.3) -9.08%, rgba(106, 130, 251, 0.3) 106.87%);
+}
+
+.teamup .card__number {
+	color: #2f80ed61;
+}
+
+.teamup .card__btn {
+	color: #2f80ed;
+}
+
+.teamup .card__img {
+    width: 150%;
+    max-width: 158%;
+}
+
+.teamup .card__device {
+ 	top: -3.5rem;
+  width: 261px;
+}
+    
+.cpy.portfolio__card {
+	background: linear-gradient(112.84deg, rgba(250, 165, 81, 0.3) -4.06%, rgba(200, 69, 153, 0.3) 158.44%);
+}
+
+.cpy .card__number {
+	color: #ff82005c;
+}
+
+.cpy .card__btn {
+	color: #ff8200;
+}
+
+.cpy .card__device {
+	top: -6.5rem;
+  right: -4rem;
+  width: 402px;
+}
+
+.wildtracker.portfolio__card {
+	background: linear-gradient(98.48deg, rgb(184 225 213) -9.08%, rgba(106, 130, 251, 0.5) 106.87%);
+}
+
+.wildtracker .card__number {
+	color: #04a69142;
+}
+
+.wildtracker .card__btn {
+	color:  #04a691;
+}
+
+.wildtracker .card__device {
+  top: -8.5rem;
+  left: -1REM;
+  width: 350px;
+}
+
+.johnny.portfolio__card {
+	background:linear-gradient(114.11deg, rgba(250, 165, 81, 0.5) -36.57%, rgba(200, 69, 153, 0.5) 102.78%);
+}
+
+.johnny .card__number {
+	color: #b04b3c57;
+}
+
+.johnny .card__btn {
+	color: #b04b3c;
+}
+
+.johnny .card__device {
+ 	top: -4rem;
+  width: 450px;
+}
+   
+.laboheme.portfolio__card {
+	background: linear-gradient(112.84deg, rgba(250, 165, 81, 0.5) -4.06%, rgba(200, 69, 153, 0.5) 158.44%);
+}
+
+.laboheme .card__number {
+	color: #ffc1075e;
+}
+
+.laboheme .card__btn {
+	color: #ffc107;
+}
+
+.laboheme .card__device {
+ 	top: -4rem;
+  width: 339px;
+}
+   
+.motion .card__img {
+	opacity: 1;
+	mix-blend-mode: normal;
+}
+
+.motion .card__number {
+  bottom: -3.2rem;
+}
+
+.motion .card__btn {
+	 color: rgb(0 178 176);
+}
+
+@media (min-width: 500px) {
+	.laboheme .card__device {
+	 	width: 450px;
+    left: 0.5rem;
+  }
+
+  .johnny .card__device {
+  width: 565px;
+    left: 1rem;
+    top: -5rem;
+  }
+}
+
+@media (min-width: 600px) {
+	.card__text {
+    padding: 1rem 2rem;
+	}
+
+	.teamup .card__text {
+		text-align: right;
+	}
+
+	.teamup .card__number {
+		right: 2rem;
+	}
+
+	.teamup .card__device {
+    top: -2.5rem;
+    width: 300px;
+  }
+
+	.cpy .card__device {
+   	right: -71px;
+    left: auto;
+    width: 470px;
+	}
+	
+	.wildtracker .card__device {
+    top: -9rem;
+    width: 420px;
+   }
+
+  .laboheme .card__device {
+	 	bottom: 8rem;
+    top: auto;
+    left: auto;
+    right: 1rem;
+  }  
+}
+
+@media (min-width: 750px) {
+	.teamup .card__device {
+    left: 2rem;
+    width: 350px;
+  }
+
+	.cpy .card__device {
+   	width: 500px;
+    right: 0;
+	}
+	
+	.wildtracker .card__device {
+    left: 2rem;
+   }
+
+	.johnny .card__device {
+		left: 2rem;
+    width: 700px;
+	}
+
+  .laboheme .card__device {
+	 	bottom: 8rem;
+    top: auto;
+    left: auto;
+    right: 1rem;
+  }  
+}
+
+
+@media (min-width: 900px) {
+ 	.card__title {
+ 	 margin-bottom: 0;
+	}
+ 
+	.card_tag {
+	  font-size: 1rem;
+    color: #5b5b5b;
+	}
+
+	.teamup .card__device {
+   top: -4rem;
+   width: 300px;
+	}
+
+	.cpy .card__device {
+		width: 400px;
+    right: -2rem;
+	}
+
+	.wildtracker .card__device {
+    width: 380px;
+    left: 0;
+    top: -10rem;
+ 	}
+
+ .johnny .card__device {
+    width: 500px;
+	}
+
+	.johnny .card__text {
+		text-align: left;
+	}
+
+	.johnny .card__number {
+		left: 2rem;
+	}
+
+	.laboheme .card__device {
+		width: 400px;
+	  top: -4rem;
+	  left: 0.5rem;
+ 	}
+
+	.laboheme .card__text {
+		text-align: right;
+	}
+
+	.laboheme .card__number {
+		right: 2rem;
+	}
+
+ .motion .card__number {
+		bottom: -2rem;
+	}
+}
+
+
+@media (min-width: 1300px) {
+	.overflow-card {
+  	margin-top: 1rem;
+  	margin-bottom: 1rem;
+	}
+
+		.card__img-high {
+		height: 60vh;
+	}
+		.number-right {
+		right: 2rem;
+	}
+
+	.teamup .card__device {
+		width: 350px;
+	}
+
+	.cpy .card__device {
+    width: 500px;
+    top: -8rem;
+    right: -3rem;
+	}
+
+	.wildtracker .card__device {
+    width: 400px;
+    left: 3rem;
+    top: -9rem;
+	}
+
+	.johnny .card__device {
+		top: -7rem;
+    left: 1rem;
+    width: 700px;
+	}
+
+	.laboheme .card__device {
+    top: -3rem;
+    right: auto;
+    width: 500px;
+    left: 2rem;
+	}	
+}

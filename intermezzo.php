@@ -16,50 +16,45 @@
 </head>
 
 <body>
+	<!-- nav -->
+	<?php include "parts/header.html" ?>
+
+<!-- casestudy -->
+<div class="casestudy-container">
 	<div class="casestudy__landingpage casestudy-landingpage--intermezzo">
-			<!-- Include Header -->
-				<?php include "parts/header.html" ?>
-		
-	<!-- Hero image part -->
-	<section class="casestudy__hero">
-		<div class="portfolio__item portfolio__item--intermezzo hero__item hero__item--intermezzo">
-			<div class="portfolio__text hero__text hero__text--intermezzo">	
-				<div class="title__part1">
-					<h5 class="hero__title">Stellantis x AAU 2050</h5>
-					<h1 class="portfolio__title hero__title">Intermezzo</h1>
-					<h4 class="portfolio__subtitle hero__subtitle">Shaping the Future of Mobility, Architecture, and Technology</h4>
+		<section class="casestudy__hero">
+			<div class="portfolio__item portfolio__item--intermezzo hero__item hero__item--intermezzo">
+				<div class="portfolio__text hero__text hero__text--intermezzo">	
+					<div class="title__part1">
+						<h5 class="hero__title">Stellantis x AAU 2050</h5>
+						<h1 class="portfolio__title hero__title">Intermezzo</h1>
+						<h4 class="portfolio__subtitle hero__subtitle">Shaping the Future of Mobility, Architecture, and Technology</h4>
+					</div>
+					<div class="title__part2">
+						<h5 class="portfolio__tag hero__tag">Automotive | Architecture | UX/UI Design</h5>
+						<img class="intermezzo__logo" src="img/homepage/Stellantis aau logo.png">
+					</div>
 				</div>
-				<div class="title__part2">
-					<h5 class="portfolio__tag hero__tag">Automotive | Architecture | UX/UI Design</h5>
-					<img class="intermezzo__logo" src="img/homepage/Stellantis aau logo.png">
+				<div class="portfolio__item__img--intermezzo hero__item__img--intermezzo">
+					<img class="portfolio__item__img portfolio__item__img--intermezzo01" src="img/homepage/intermezzo_cover1.png" alt="Intermezzo - Adagio">
+					<img class="portfolio__item__img portfolio__item__img--intermezzo03" src="img/homepage/intermezzo_cover3.png" alt="Intermezzo - Shoe Sensor">
+					<img class="portfolio__item__img portfolio__item__img--intermezzo02" src="img/homepage/intermezzo_cover2.png" alt="Intermezzo - Stellantis community center">
 				</div>
 			</div>
-			<div class="portfolio__item__img--intermezzo hero__item__img--intermezzo">
-				<img class="portfolio__item__img portfolio__item__img--intermezzo01" src="img/homepage/intermezzo_cover1.png" alt="Intermezzo - Adagio">
-				<img class="portfolio__item__img portfolio__item__img--intermezzo03" src="img/homepage/intermezzo_cover3.png" alt="Intermezzo - Shoe Sensor">
-				<img class="portfolio__item__img portfolio__item__img--intermezzo02" src="img/homepage/intermezzo_cover2.png" alt="Intermezzo - Stellantis community center">
-			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 
 	
 
 	<div class="casestudy__content intermezzo">
-		<!-- <div class="sidenav">
-		  <a href="#">Intro</a>
-		  <a href="#">Concept</a>
-		  <a href="#">Design</a>
-		  <a href="#">Deliverables</a>
-		</div>		 -->
-
-		<div class="main_title">
-				<h1 class="number">01</h1>
-				<h2 class="title">Introduction</h2>
-		</div>
 
 <!-- Project Overview -->
 		<section class="casestudy__section">
-			<div class="section__flexcontent">
+			<div class="main_title">
+				<h1 class="number">01</h1>
+				<h2 class="title">Introduction</h2>
+			</div>
+			<div class="section__flexcontent flex-center">
 				<div class="content__item content__item--1">
 					<h4 class="section__title">Project Overview</h4>
 					<p class="content__copy">Stellantis x AAU 2050 is a corporate sponsored collaborative project between Stellantis and Academy of Art University. In this project, our team explored and showcased the new styling and technology in vehicle, architecture, and user experience design to promote Stellantis as a leader of global social and economical sustainability in 2050.</p>
@@ -67,25 +62,24 @@
 				</div>
 				<div class="content__item content__item--2 flex-none">
 					<div class="overview_1">
-						<h5>Client</h5>
+						<p><strong>Client</strong></p>
 						<p>Stellantis</p>
 					</div>
 					<div class="overview_2">
-						<h5>My Role</h5>
+						<p><strong>My Role</strong></p>
 						<p>Researcher, UX/UI Designer</p>
 					</div>
 					<div class="overview_3">
-						<h5>Timeline</h5>
+						<p><strong>Timeline</strong></p>
 						<p>Sept. 2020 - Dec. 2020</p>
 					</div>
 					<div class="overview_4">
-						<h5>Tools</h5>
+						<p><strong>Tools</strong></p>
 						<p>Adobe Xd, Illustrator, PhotoShop, After Effects</p>
 					</div>
 					<div class="overview_5">
-						<h5>Project Website</h5>
+						<p><strong>Project Website</strong></p>
 						<a href="https://www.stellantisxaau2020.com/intermezzo">https://www.stellantisxaau2020.com/intermezzo</a>
-						<p></p>
 					</div>
 				</div>
 			</div>
@@ -94,7 +88,7 @@
 <!-- About Stellantis -->
 		<section class="casestudy__section white">
 			<div class="section__flexcontent flex-center">
-				<div class="content__item flex-1">
+				<div class="content__item flex-1 about">
 					<h4 class="section__title">About Stellantis</h4>
 					<p class="content__copy">Stellantis is a multinational automotive manufacturing 
 							corporation resulting from the merger of French automaker 
@@ -146,33 +140,30 @@
 			<div class="section__flexcontent">
 				<div class="content__item content__item--3">
 					<div class="flex-1">
-						<h4 class="content__title tc">UX/UI Design</h4>
-						<h5 class="tc">Mood Tracker</h5>
-						<h5 class="tc">Adagio App</h5>
-						<h5 class="tc">Shoe Sensor</h5>
-						<h5 class="tc">Automotive Display</h5>
+						<h5 class="content__title tc">UX/UI Design</h5>
+						<p class="tc">Mood Tracker | Adagio App | Shoe Sensor | Automotive Display </p>
 					</div>
-					<div class="flex-1">
+					<div class="">
 						<img class="preview-img" src="img/intermezzo/preview-ux.png" alt="">
 					</div>
 				</div>
 
 				<div class="content__item content__item--1">
-					<div class="flex-1">
-						<h4 class="content__title tc">Automotive Design</h4>
-						<h5 class="tc">Adagio</h5>
+					<div class="">
+						<h5 class="content__title tc">Automotive Design</h5>
+						<p class="tc">Adagio</p>
 					</div>
-					<div class="flex-1">
+					<div class="">
 						<img class="preview-img flex-1" src="img/intermezzo/preview-adagio.png" alt="">
 					</div>
 				</div>
 
 				<div class="content__item content__item--2">
-					<div class="flex-1">
-						<h4 class="content__title tc">Architectural Design</h4>
-						<h5 class="tc">Stellantis Community Center</h5>
+					<div class="">
+						<h5 class="content__title tc">Architectural Design</h5>
+						<p class="tc">Stellantis Community Center</p>
 					</div>
-					<div class="flex-1">
+					<div class="">
 						<img class="preview-img" src="img/intermezzo/preview-community.png" alt="">
 					</div>
 				</div>
@@ -182,23 +173,25 @@
 
 <!-- Concept video -->
 		<section class="casestudy__section concept-video">
-			<h4 class="section__title tc">Concept Video</h4>
-			<iframe title="vimeo-player" src="https://player.vimeo.com/video/529496769" width="100%" height="540" frameborder="0" allowfullscreen></iframe>
+			<div class="section__flexcontent flex-column">
+				<h4 class="section__title tc">Concept Video</h4>
+				<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/529496769?autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+			</div>
 		</section>
 	<!-- concept Development -->
 
-		<div class="main_title">
-			<h1 class="number">02</h1>
-			<h2 class="title">Concept Development</h2>
-		</div>
+
 
 		<section class="casestudy__section">
+			<div class="main_title">
+				<h1 class="number">02</h1>
+				<h2 class="title">Concept Development</h2>
+			</div>
 			<div class="section__flexcontent">
 				<div class="flex-1">
 					<h4 class="section__title">Issues in 2050</h4>
-					<p class="">Urbanization and the ever-faster pace of environmental change, societal evolution, and technological shift will generate more mental health issues in the future.</p>
+					<p class="content__copy">Urbanization and the ever-faster pace of environmental change, societal evolution, and technological shift will generate more mental health issues in the future.</p>
 				</div>
-				<div class="flex-1"></div>
 			</div>
 		
 			<div class="section__flexcontent ">
@@ -406,13 +399,14 @@
 
 
 <!-- Design -->
- 	<div class="main_title">
-		<h1 class="number">03</h1>
-		<h2 class="title">Design</h2>
-	</div>
 
 <!-- Storyboard -->
 	<section class="casestudy__section">
+	 	<div class="main_title">
+			<h1 class="number">03</h1>
+			<h2 class="title">Design</h2>
+		</div>
+
 		<div class="section__flexcontent flex-column">
 			<div class="content__item">
 				<h4 class="section__title">Storyboard: One day of Lisa</h4>
@@ -500,13 +494,14 @@
 	</section>
 
 <!-- Final Deliverables -->
-	<div class="main_title">
-		<h1 class="number">04</h1>
-		<h2 class="title">Final Deliverables</h2>
-	</div>
+	
 
 <!-- Automotive Design -->
 	<section class="casestudy__section">
+		<div class="main_title">
+			<h1 class="number">04</h1>
+			<h2 class="title">Final Deliverables</h2>
+		</div>
 		<div class="section__flexcontent">
 			<div class="content__item">
 				<h4 class="section__title">Automotive Design</h4>
@@ -664,19 +659,18 @@
 
 
 <!-- Summary -->
-	<div class="main_title">
-		<h1 class="number">05</h1>
-		<h2 class="title">Summary</h2>
-	</div>
+	
 
 	<section class="casestudy__section">
+		<div class="main_title">
+			<h1 class="number">05</h1>
+			<h2 class="title">Summary</h2>
+		</div>
 		<div class="section__flexcontent">
 			<div class="flex-1">
 				<h4 class="section__title">What I have learned</h4>
 				<p class="content__copy">
-					I was able to dive deeper into design thinking through this project. It also provided me with invaluable hands-on experience in the 
-					innovation design process. I gained a wealth of insights on human-centered design through practice which empowered 
-					me in solving problems creatively. 
+					In this project, I have been able to deepen my understanding of design thinking. Moreover, it provided me with hands-on experience that enabled me to solve problems creatively.
 				</p>
 				<p class="content__copy">
 					I was also able to foster strong collaboration and 
@@ -731,14 +725,15 @@
 		</div>
 	</div>
 
-	<div class="btn">
-		<a class="back-home-btn" href="index.php">Back to Home</a>
-	</div>
+		<div class="section__flexcontent btn">
+			<a class="back-home-btn" href="index.php">Back to Home</a>
+		</div>
+
 
 
 <!-- Footer -->
 	<?php include "parts/footer.html" ?>
 
-
+</div>
 </body>
 </html>

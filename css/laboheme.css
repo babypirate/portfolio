@@ -1,0 +1,46 @@
+/*color*/
+.cream {
+	background-color: #F7EFE3;
+}
+
+.portfolio__item--laboheme, 
+.portfolio__item:hover.portfolio__item--laboheme {
+  max-height: 70vh;
+  background-color: #000000d6;
+}
+
+.portfolio__text {
+  top: 5rem;
+}
+
+.overview {
+	padding-top: 0;
+}
+
+.main_title .number {
+	color: #DB64684D;
+}
+
+.main_title .title {
+	color: #DB6468;
+}
+
+.video-player{
+ max-width: 1980px;
+  max-height: 987px;
+  width: 100%;
+}
+
+.web-video-container {
+	position: relative;
+}
+
+.web-video {
+  position: absolute;
+  top: 4%;
+  max-width: 1980px;
+  max-height: 987px;
+  width: 100%;
+  height: 62%;
+}
+

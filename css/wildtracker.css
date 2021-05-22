@@ -6,6 +6,10 @@
 	background: rgba(4, 166, 145, 0.1);
 }
 
+section {
+  overflow: hidden;
+}
+
 .main_title .number {
 	color:rgba(4, 166, 145, 0.3);
 }
@@ -15,14 +19,15 @@
 }
 
 .portfolio__item__img--wildtracker {
-	top: 20%;
+  top: 40%;
   bottom: 0;
-  right: 50px;
-  left: 20%;
+  left: 0;
+  max-width: 100%;
 }
 
-.portfolio__item--wildtracker {
+.portfolio__item--wildtracker, .portfolio__item:hover.portfolio__item--wildtracker {
 	background: rgba(4, 166, 145, 0.8);
+  max-height: 70vh;
 }
 
 .portfolio__text {
@@ -113,7 +118,7 @@
 @media (min-width: 600px) {
 .portfolio__item__img--wildtracker {
     width: 100%;
-    top:80px;
+    top:150px;
     bottom: auto;
     right: -200px;
 	}
@@ -124,6 +129,8 @@
     top: 50%;
     transform: translatey(-50%);
     right: -100px;
+    left: auto;
+    max-width: 60%;
  }
 }
 

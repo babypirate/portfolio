@@ -15,19 +15,20 @@
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+	<!-- nav -->
+<?php include "parts/header.html" ?>
+
+<!-- casestudy -->
+<div class="casestudy-container">
 	<div class="casestudy__landingpage casestudy-landingpage--johnny">
-		<!-- Include Header -->
-			<?php include "parts/header.html" ?>
-	
-		<!-- Hero image part -->
 		<section class="casestudy__hero">
 			<div class="portfolio__item portfolio__item--johnny hero__item hero__item--johnny">
 				<div class="portfolio__text hero__text">	
 					<h1 class="portfolio__title hero__title">Johnny's Woodworking</h1>
-					<h4 class="portfolio__subtitle hero__subtitle">Online Wood Craft Store</h4>
+					<h4 class="hero__subtitle">Online Wood Craft Store</h4>
 					<h5 class="portfolio__tag hero__tag">Responsive Web Design and Development</h5>
 				</div>
-				<img class="portfolio__item__img portfolio__item__img--johnny hero__img hero__img--johnny" src="img/woodworking/cover.png" alt="johnny's woodworking mobile app mockup">	
+				<img class="portfolio__item__img portfolio__item__img--johnny hero__img hero__img--johnny" src="img/homepage/johnny.png" alt="johnny's woodworking mobile app mockup">	
 			</div>
 		</section>
 	</div>	
@@ -36,10 +37,7 @@
 	<section class="casestudy__section">
 		<div class="section__flexcontent flex-reverse flex-center overview">
 			<div class="content__item flex-2">
-				<div class="main_title">
-					<h1 class="number">01</h1>
-					<h3 class="title">Project Overview</h3>
-				</div>
+				<h4 class="section__title">Project Overview</h4>
 				<p class="content__copy">Johnny is a friend of mine who makes wood crafts during his spare time. I designed and developed this e-commerce website prototype for him to sell his wood crafts.</p>
 				<p class="content__copy">Customers can browse the website and purchase products. Johnny, as the site administrator, can add, edit, and delete products on the administrator's page.</p>
 				<p class="content__copy">This responsive website fits any device.</p>
@@ -57,7 +55,7 @@
 						<p>Sketch, Illustrator, PhotoShop</p>
 					</div>
 					<div class="overview__item">
-						<h5>App link</h5>
+						<h5>Website link</h5>
 						<p><a href="https://hanlingdesign.com/aau/wnm608/m15/">Link to Johnny’s Woodworking</a></p>
 					</div>
 				</div>
@@ -71,8 +69,8 @@
 <!-- Brand Identity -->
 	<section class="casestudy__section white">
 		<div class="main_title">
-			<h1 class="number">02</h1>
-			<h3 class="title">Brand Identity</h3>
+			<h1 class="number">01</h1>
+			<h2 class="title">Brand Identity</h2>
 		</div>
 	</section>
 
@@ -114,8 +112,8 @@
 <!-- Interaction Design -->
 	<section class="casestudy__section cream">
 		<div class="main_title">
-			<h1 class="number tr">03</h1>
-			<h3 class="title tr">Interaction Design</h3>
+			<h1 class="number tr">02</h1>
+			<h2 class="title tr">Interaction Design</h2>
 		</div>
 	</section>
 
@@ -154,8 +152,8 @@
 <!-- Development -->
 	<section class="casestudy__section white">
 		<div class="main_title">
-			<h1 class="number">04</h1>
-			<h3 class="title">Development</h3>
+			<h1 class="number">03</h1>
+			<h2 class="title">Development</h2>
 		</div>
 		<div class="section__flexcontent flex-column flex-center">
 			<div class="content__item">
@@ -169,12 +167,12 @@
 		<div class="section__flexcontent flex-column">
 			<div class="content__item flex-1">
 				<div class="main_title">
-					<h1 class="number">05</h1>
-					<h3 class="title">Final Prototype</h3>
+					<h1 class="number">04</h1>
+					<h2 class="title">Final Prototype</h2>
 				</div>
 			</div>
 			<div class="content__item flex-1">
-				<a class="tr" href="https://hanlingdesign.com/aau/wnm608/m15/">Link to the website</a>
+				<h5><a class="tr" href="https://hanlingdesign.com/aau/wnm608/m15/">Link to the website</a></h5>
 			</div>
 	</section>
 
@@ -206,7 +204,7 @@
 		<div class="section__flexcontent flex-center">
 			<div class="content__item">
 				<h4 class="section__title">Product page</h4>
-				<h5 class="content__copy">Engage the customer with more product details</h5>
+				<h5 class="content__copy">Engage customesr with more product details</h5>
 			</div>
 			<div class="content__item">
 				<img class="productpage-mockup" src="img/woodworking/single product.png" alt="single productpage mockups">
@@ -218,7 +216,7 @@
 		<div class="section__flexcontent flex-reverse flex-center">
 			<div class="content__item">
 				<h4 class="section__title">Checkout pages</h4>
-				<h5 class="content__copy">Smooth Checkout Process</h5>
+				<h5 class="content__copy">Order products with a smooth checkout Process</h5>
 			</div>
 			<div class="content__item">
 				<img class="checkout-mockup" src="img/woodworking/check-out.png" alt="Checkout pages mockups">
@@ -250,6 +248,58 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Explore other work -->
+	<div class="more-work">
+		<h4>Explore More Works</h4>
+		<div class="works">
+			<a href="intermezzo.php">
+				<div class="more-work__item">
+					<img class="more-work__img img-cover" src="img/intermezzo-bg.png" alt="Intermezzo mockup">	
+					<div class="more-work_text">	
+						<h3 class="more-work__title">Intermezzo</h3>
+						<p class="more-work__subtitle">Shaping the Future of Mobility, Architecture, and Technology</p>
+						<p class="portfolio__tag">Automotive | Architecture | UX/UI Design</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="corepower.php">
+				<div class="more-work__item">
+					<img class="more-work__img img-cover" src="img/cpy/cpyhero_mockup.png" alt="Corepower mockup">	
+					<div class="more-work_text">	
+						<h3 class="more-work__title">CorePower Yoga</h3>
+						<p class="more-work__subtitle">Find the Right Yoga Class For You</p>
+						<p class="portfolio__tag">UX/UI Design</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="teamup.php">
+				<div class="more-work__item">
+					<img class="more-work__img" src="img/homepage/teamup.png" alt="Teamup mockup">	
+					<div class="more-work_text">	
+						<h3 class="more-work__title">TeamUp</h3>
+						<p class="more-work__subtitle">Build Better Habits Together</p>
+						<p class="portfolio__tag">UX/UI Design</p>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="section__flexcontent btn">
+		<a class="back-home-btn" href="index.php">Back to Home</a>
+	</div>
+
+
+
+<!-- Footer -->
+	<?php include "parts/footer.html" ?>
+	
+	</div>	
+</body>
+</html>
 
 
 

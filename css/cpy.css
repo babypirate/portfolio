@@ -1,6 +1,11 @@
 /*cpy style*/
-.portfolio__item--cpy {
+.hero__title {
+	color:white;
+}
+
+.portfolio__item--cpy, .portfolio__item:hover.portfolio__item--cpy {
 	background: #ff8200;
+	max-height: 70vh;
 }
 
 .yellow {
@@ -25,6 +30,7 @@ h4.section__title {
 
 .hero__text {
 	top:100px;
+	color: white;
 }
 
 .main_title .number {
@@ -44,7 +50,6 @@ h4.section__title {
 
 /*intro*/
 .cpy_app {
-  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -133,7 +138,8 @@ h4.section__title {
 }
 
 .design_requirements h5 {
-	font-weight: var(--fw-med);
+	font-weight: var(--fw-reg);
+  color: #ff8202;
 }
 
 .feedback {
@@ -167,24 +173,12 @@ h4.section__title {
 }
 
 @media (min-width: 900px) {
-h4 {
-	font-size: 1.5rem;
-}
-
-h5 {
-	font-size: 1.25rem;
-}
-
-body {
-	font-size: 1rem;
-}
-
 .hero__item--cpy {
   display:flex;
 	}
 
 .hero__item--cpy .hero__text {
-	bottom: 0;
+	bottom: 20%;
 	top: auto;
 }
 
@@ -195,7 +189,9 @@ body {
 	  overflow: hidden;
 	  transform: none;
 	  padding: 0;
-	  max-width: 80%;
+    max-width: 70%;
+		object-fit: contain;
+    height: 90vh;
 	}
 
 .problem1,
@@ -227,4 +223,12 @@ body {
 	.hero__item--cpy .hero__text {
 		text-align:left; 
 	}
+}
+
+@media (min-width: 1200px) {
+.portfolio__item--cpy::before {
+    background-position-x: 0;
+    background-size: 100%;
+    background-position: right;
+	}  
 }

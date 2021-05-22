@@ -15,15 +15,19 @@
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+
+<!-- nav -->
+<?php include "parts/header.html" ?>
+
+<!-- casestudy -->
+<div class="casestudy-container">
 	<div class="casestudy__landingpage casestudy-landingpage--wildtracker">
-			<!-- Include Header overlay with hero part--> 
-				<?php include "parts/header.html" ?>
 			<!-- Hero image part -->
 			<section class="casestudy__hero">
 				<div class="portfolio__item portfolio__item--wildtracker hero__item hero__item--wildtracker">
 					<div class="portfolio__text hero__text">	
 						<h1 class="portfolio__title hero__title">Wild Tracker</h1>
-						<h4 class="portfolio__subtitle hero__subtitle">Track and Record Wildlife</h4>
+						<h4 class="hero__subtitle">Track and Record Wildlife</h4>
 						<h5 class="portfolio__tag hero__tag">Mobile App Design and Development</h5>
 					</div>
 					<img class="portfolio__item__img portfolio__item__img--wildtracker hero__img hero__img--wildtracker" src="img/wildtracker/wildhero_mockup.png" alt="wild tracker mobile app mockup">	
@@ -36,10 +40,7 @@
 	<section class="casestudy__section white overview">
 		<div class="section__flexcontent flex-center">
 			<div class="content__item flex-2">
-				<div class="main_title">
-					<h1 class="number">01</h1>
-					<h3 class="title">Project Overview</h3>
-				</div>
+				<h4 class="section__title">Project Overview</h4>
 				<p class="content__copy">I enjoy watching wildlife when I go to nature. I was hoping there would be a tool to help me record my encounters with those beautiful animals. That’s why I designed and developed Wild Tracker - a mobile app that allows wildlife lovers to track and record animals they meet. With Wild Tracker, users can add animal species, record animal locations, observe time, and upload real-life photos.</p>
 			</div>
 			<div class="content__item flex-1">
@@ -70,8 +71,8 @@
 <!-- Interaction Design -->
 	<section class="casestudy__section">
 			<div class="main_title tr">
-				<h1 class="number">02</h1>
-				<h3 class="title">Interaction Design</h3>
+				<h1 class="number">01</h1>
+				<h2 class="title">Interaction Design</h2>
 			</div>
 	</section>
 	<section class="casestudy__section">
@@ -108,8 +109,8 @@
 <!-- UI design -->
 	<section class="casestudy__section">
 		<div class="main_title">
-			<h1 class="number">03</h1>
-			<h3 class="title">UI Design</h3>
+			<h1 class="number">02</h1>
+			<h2 class="title">UI Design</h2>
 		</div>
 	</section>
 	<section class="casestudy__section ui-design">
@@ -138,8 +139,8 @@
 <!-- Development -->
 	<section class="casestudy__section green">
 		<div class="main_title">
-			<h1 class="number">04</h1>
-			<h3 class="title">Development</h3>
+			<h1 class="number">03</h1>
+			<h2 class="title">Development</h2>
 		</div>
 		<div class="section__flexcontent flex-column flex-center">
 			<div class="content__item">
@@ -152,8 +153,8 @@
 
 	<section class="casestudy__section white">
 		<div class="main_title tr">
-			<h1 class="number">05</h1>
-			<h3 class="title">Final Deliverables</h3>
+			<h1 class="number">04</h1>
+			<h2 class="title">Final Deliverables</h2>
 		</div>
 	</section>
 
@@ -176,7 +177,7 @@
 	<section class="casestudy__section white">
 		<div class="section__flexcontent flex-center">
 			<div class="content__item">
-				<h5 class="section__title">Add New Location</h5>
+				<h5 class="section__title">Add new animal locations</h5>
 				<p class="content__copy">Pick an animal from the animal list or add a new one, then click the map to add a location pin, input notes or upload a real-life photo. The new location will be displayed on the animal's profile page.</p>
 			</div>
 			<div class="content__item final__img final__img--home">
@@ -189,7 +190,7 @@
 	<section class="casestudy__section white">
 		<div class="section__flexcontent flex-column flex-center">
 			<div class="content__item">
-				<h5 class="section__title">Animal List and Animal Profile Page</h5>
+				<h5 class="section__title">Animal list and animal profile page</h5>
 				<p class="content__copy">Animal list displays all animals recorded by the user. Filter and search features assist users in finding animals faster.</p>
 				<p class="content__copy">Animal Profile page shows all the history locations. Click the location dot to reveal more detailed information. </p>
 			</div>
@@ -204,7 +205,7 @@
 		<div class="section__flexcontent flex-reverse flex-center">
 			<div class="content__item">
 				<h5 class="section__title">User Profile Page</h5>
-				<p class="content__copy">Edit personal information, change password, and update the profile image in the user profile page.</p>
+				<p class="content__copy">Edit personal information, change password, update the profile image on the user profile page.</p>
 			</div>
 			<div class="content__item final__img final__img--home">
 				<img class="mockup" src="img/wildtracker/user-profile.png" alt="user profile mockups">
@@ -226,3 +227,55 @@
 			</div>	
 		</div>
 	</section>
+
+		<!-- Explore other work -->
+	<div class="more-work">
+		<h4>Explore More Works</h4>
+		<div class="works">
+			<a href="intermezzo.php">
+				<div class="more-work__item">
+					<img class="more-work__img img-cover" src="img/intermezzo-bg.png" alt="Intermezzo mockup">	
+					<div class="more-work_text">	
+						<h3 class="more-work__title">Intermezzo</h3>
+						<p class="more-work__subtitle">Shaping the Future of Mobility, Architecture, and Technology</p>
+						<p class="portfolio__tag">Automotive | Architecture | UX/UI Design</p>
+					</div>
+				</div>
+			</a>
+			
+			<a href="corepower.php">
+				<div class="more-work__item">
+					<img class="more-work__img img-cover" src="img/cpy/cpyhero_mockup.png" alt="Corepower mockup">	
+					<div class="more-work_text">	
+						<h3 class="more-work__title">CorePower Yoga</h3>
+						<p class="more-work__subtitle">Find the Right Yoga Class For You</p>
+						<p class="portfolio__tag">UX/UI Design</p>
+					</div>
+				</div>
+			</a>
+
+			<a href="teamup.php">
+				<div class="more-work__item">
+					<img class="more-work__img" src="img/homepage/teamup.png" alt="Teamup mockup">	
+					<div class="more-work_text">	
+						<h3 class="more-work__title">TeamUp</h3>
+						<p class="more-work__subtitle">Build Better Habits Together</p>
+						<p class="portfolio__tag">UX/UI Design</p>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+		<div class="section__flexcontent btn">
+			<a class="back-home-btn" href="index.php">Back to Home</a>
+		</div>
+
+
+
+	<!-- Footer -->
+		<?php include "parts/footer.html" ?>
+</div>
+
+</body>
+</html>

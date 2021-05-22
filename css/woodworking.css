@@ -13,8 +13,9 @@
 }
 
 /*Hero image*/
-.portfolio__item--johnny  {
+.portfolio__item--johnny, .portfolio__item:hover.portfolio__item--johnny {
 	background: rgb(67 16 18 / 90%);
+  max-height: 70vh;
 }
 
 .portfolio__item::before {
@@ -27,6 +28,11 @@
 
 .portfolio__item--johnny .portfolio__text {
 	top:100px;
+	left: 1em;
+}
+
+.hero__title {
+	font-size: 2rem;
 }
 
 .main_title .number {
@@ -36,10 +42,6 @@
 .main_title .title {
   color: rgb(113 52 44);
 }
-/*
-.red .main_title .title {
-  color: white;
-}*/
 
 .overview-list {
 	margin-top: 40px;
@@ -86,19 +88,34 @@
 /*Responsive*/
 @media (min-width: 600px){
 	.portfolio__item__img--johnny {
-   top: 41%;
+   top: 15%;
   }
 }
 
 @media (min-width: 900px){
+	.portfolio__item--johnny {
+		display: block;
+	}
+
 	.portfolio__item__img--johnny {
 		  top:-80px;
 		  max-width: 200%;
 		  width: 110%;
-		}
+	}
+
+	.portfolio__item__img--johnny {
+		left: -100px;
+		max-width: 100%;
+	}
+
+	.hero__title {
+	font-size: 5rem;
+	}
 
 	.portfolio__item--johnny .portfolio__text {
 			top:auto;
+	    right: 1em;
+    	bottom: 0;
 		}
 
 	.overview-list {
@@ -122,5 +139,15 @@
 	.prototype .content__copy {
 		white-space: nowrap;
 	}
+}
 
+@media (min-width: 1300px) {
+	.portfolio__item__img--johnny {
+		  max-width: 70%;
+	}
+
+	.portfolio__item--johnny .portfolio__text {
+		bottom: 20%;
+    right: 0;
+	}
 }

@@ -20,6 +20,79 @@
 	text-align: center;
 }
 
+.resume {
+	background-color: #ffffffe3;
+	padding-top: 40px;
+}
+
+.resume-header {
+	max-width: 1200px;
+	padding-right: 1em;
+	align-items: center;
+	display: flex;
+	margin-bottom: 1em;
+}
+
+.resume-header h5 {
+  letter-spacing: 0.1em;
+  color: var(--clr-blk);
+}
+
+.resume-link {
+ text-decoration: underline;
+ font-style: oblique;
+ font-size: 0.8em;
+ padding: 1em;
+}
+
+.resume-body.section__flexcontent {
+	margin-bottom: 0;
+}
+
+.resume__content {
+	flex-direction: column;
+	flex:1;
+  margin-top: 0;
+}
+
+
+.content-block {
+	max-width: 500px;
+	margin-bottom: 2em;
+}
+
+.resume-title {
+  margin-bottom: 1em;
+}
+
+.resume-title h5 {
+  font-size: 16px;
+  color: var(--clr-accent);
+  letter-spacing: 0.2em;
+}
+
+.work-experience { 
+
+}
+
+.work-title {
+	font-size: 18px;
+  font-weight: var(--fw-med);
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+}
+
+.work-time {
+	font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-content {
+
+}
+
 @media (min-width: 600px) {
 .landingpage--about::before {
    background-size: 100vw;
@@ -32,11 +105,8 @@
 		font-size: 7rem;
 	}
 
-
 	.section__flexcontent {
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
 	}
 
 	.section__flexcontent{
@@ -45,9 +115,22 @@
 		padding: 0.5em;
 	}
 
+.resume-header {
+	margin-bottom: 0;
+	padding-left: 1em;
+}
+ 
+.resume-body {
+		margin-top: 0
+	}
+
  	.content__item {
  		flex: 1;
  	}
+
+	.resume__content+.resume__content{
+		margin-left: 40px;
+	}
 
 	.about__body {
 		
@@ -56,6 +139,10 @@
 	.about-img {
 		grid-column: 8/13;
 	}
+}
+
+.connect {
+	flex-direction: column;
 }
 
 @media (min-width: 1200px){

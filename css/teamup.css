@@ -1,0 +1,206 @@
+body {
+	background-color: #f1f7ff;
+}
+
+h4 {
+	color: black;
+}
+
+h5 {
+	color: var(--clr-blk);
+}
+
+.content__copy {
+	margin-bottom: 0;
+}
+
+/*teamup*/
+.casestudy__hero .portfolio__item--teamup::before {
+ 	background-size: cover;
+  background-position: center;
+}
+
+
+.hero__img--teamup {
+  max-height: 100vh;
+  object-fit: cover;
+  max-width: 100%;
+  position: absolute;
+  bottom: -20%;
+  left: 38%;
+}
+
+.hero__text {
+	position: absolute;
+  top: 200px;
+  z-index: 1;
+  padding: 1em;
+}
+
+.blue {
+	background: #2F80ED;
+	color: white;
+}
+
+.blue h4,
+.blue h5 {
+	color: white;
+}
+
+.light-blue {
+	background-color: #f7fbff;
+}
+
+
+.portfolio__item--teamup {
+	background: #2F80ED;
+	height: 70vh;
+}
+
+
+.portfolio__item:hover.portfolio__item--teamup {
+	background: #2F80ED;
+}
+
+.overview-list {
+	margin-top: 40px;
+}
+
+.main_title .number {
+	color: #2F80ED4D;
+}
+
+.main_title .title {
+	color: #2F80ED;
+}
+
+.problem-statement-teamup {
+	background-color: #2F80ED;
+}
+
+.problem-statement-teamup h4{
+	margin-bottom: 72px;
+}
+
+.problem-statement-teamup h2{
+	line-height: 1.6;
+	padding-bottom: 60px;
+}
+
+.features-copy {
+	color: var(--clr-light);
+}
+
+.text-grey {
+	color: #707070;
+}
+
+.text-white {
+	color: white;
+}
+
+.feature-img {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.suggestions .content__item>img {
+		padding-bottom: 2rem;
+	}
+
+.competitves img {
+  max-width: 300px;
+  padding: 1em;
+}
+
+.key-features img {
+	max-width: 300px;
+	margin: 0 auto;
+  height: 150px;
+  object-fit: contain;
+}
+
+.persona-card {
+	border-radius: 8px;
+	box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+	box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.challenge__img {
+	padding-left: 2em;
+	padding-right: 2em;
+	max-width: 500px;
+}
+
+.reward-title {
+	color: #2F80ED;
+  font-weight: 300;
+}
+
+
+.video-prototype {
+	border-radius: 16px;
+  box-shadow: 2px 4px 24px rgb(0 0 0 / 25%);
+}
+
+
+
+/*.screen-recording {
+	position: relative;
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+.screen-recording::before {
+	content: "";
+  background-image: url(../img/teamup/iphonex-frame.png);
+  position: absolute;
+  left: -9px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 106%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
+
+.large-img {
+		max-width: 100vw;
+	}
+
+@media(min-width: 900px) {
+	.content__item {
+    margin: 0 1.5rem;
+	}
+
+	.interview-findings .content__item +.content__item {
+		padding-left: 80px;
+	}
+
+	.suggestions .content__item +.content__item {
+		padding-left: 80px;
+	}
+
+	.large-img {
+		max-width: 200%;
+		width: 200%;
+	}
+
+	section {
+  	padding: 80px 1rem;
+  }
+}
+
+@media(min-width: 1100px) {
+	.hero__text {
+		left: 100px;
+	}
+
+	.hero__img--teamup {
+  	max-width: 60%;
+	}
+}
+

@@ -1,10 +1,16 @@
 /*Intermezzo style*/
+.hero__item--intermezzo {
+	background: linear-gradient( 73.99deg, #c779d099 -17.42%, #4BC0C8 88.54%);
+}
+
+.portfolio__item:hover {
+	box-shadow: none;
+}
+
+
 
 .intermezzo h4 {
-	color: var(--blue);
-	margin-top: 1em;
-  margin-bottom: 1em;
-  letter-spacing: 0.05em;
+	color: var(--clr-blk);
 }
 
 
@@ -25,6 +31,8 @@
   right: 0;
   left: 0;
   height: 60%;
+  color: white;
+  text-shadow: var(--ts);
 }
 
 .hero__item--intermezzo h1 {
@@ -37,6 +45,10 @@
 	flex-direction: column;
 }
 
+.hero__tag {
+	color: white;
+}
+
 .title__part1 {
 	flex:2;
 	display: flex;
@@ -44,7 +56,7 @@
   justify-content: center;
 }
 
-.title__part2{
+.title__part2 {
 	flex:1;
 	display: flex;
   flex-direction: column;
@@ -56,6 +68,11 @@
   margin: 0 auto;
   padding: 2rem;
   max-width: 462px;
+}
+
+.about {
+	max-width: 550px;
+	margin: 0 auto;
 }
 
 .team-photo {
@@ -71,7 +88,7 @@
 	margin-left: 2em;
 }
 
-.casestudy__section--preview{
+.casestudy__section--preview {
 	background: rgba(215, 235, 242, 1);
 }
 
@@ -82,7 +99,7 @@
 }
 
 .casestudy__section--preview h5 {
-	font-weight: var(--fw-reg);
+	font-weight: var(--fw-med);
 	margin:0.5em;
 }
 
@@ -103,11 +120,15 @@
 	background-color: var(--darkblue);
 }
 
+.problem-statement h4 {
+    color: white;
+}
+
 .problem-statement h3 {
   line-height: 1.5;
   height: 40v;
   padding: 4rem 1rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .solution {
@@ -142,8 +163,9 @@
 	color: var(--blue);
 }
 
-.concept-statement {
-/*	background-color: white;*/
+
+.concept-statement h4 {
+	color: var(--clr-blk);
 }
 
 .concept-statement h3 {
@@ -165,7 +187,7 @@
   object-fit: cover;
 }
 
-.key-words h5{
+.key-words h5 {
 	letter-spacing: 0.5em;
 } 
 
@@ -173,29 +195,17 @@
 	padding-bottom: 4rem;
 }
 
-/*.ideation h5 {
-	padding-bottom: 1rem;
-  color: var(--blue);
-  border-bottom: solid 4px;
-  padding-left: 1rem;
-  letter-spacing: 0.1em;
-}*/
 
 .ideation .flex-1 {
-	max-width: 400px;
+	max-width: 550px;
+	margin:0 auto;
 }
 
-/*.ideation .flex-1 + .flex-1 {
-	margin-left: 2em;
-}*/
 
 .ideation--architecture {
 	background-color: var(--clr-medium);
 }
 
-/*.ideation-img-architecture {
-	float: right;
-}*/
 
 .color {
 	max-width: 300px;
@@ -212,23 +222,9 @@
 }
 
 @media (min-width: 900px) {
-/*	section {
-		padding: 80px 1rem;
-	}*/
-
 	.casestudy__section--preview .section__flexcontent {
 		display: block;
 	}
-
-	.casestudy__section--preview .content__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	}
-
-	/*.casestudy__section--preview .content__item--2 {
-		flex-direction: row-reverse;
-	}*/
 
 	.prototype .content__item>p {
 		max-width: 100%;

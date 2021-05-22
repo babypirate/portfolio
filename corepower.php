@@ -17,17 +17,17 @@
 </head>
 
 <body>
+	<!-- nav -->
+<?php include "parts/header.html" ?>
+
+<!-- casestudy -->
+<div class="casestudy-container">
 	<div class="casestudy__landingpage casestudy-landingpage--cpy">
-			<!-- Include Header -->
-				<?php include "parts/header.html" ?>
-		
-<!-- Hero image part -->
 		<section class="casestudy__hero">
 			<div class="portfolio__item portfolio__item--cpy hero__item hero__item--cpy">
 				<div class="portfolio__text hero__text">	
-					<h1 class="portfolio__title hero__title">CorePower</h1>
-					<h1 class="portfolio__title hero__title">Yoga</h1>
-					<h4 class="portfolio__subtitle hero__subtitle">Find the Right Yoga Class For You</h4>
+					<h1 class="portfolio__title hero__title">CorePower <br>Yoga</h1>
+					<h4 class="hero__subtitle">Find the Right Yoga Class For You</h4>
 					<h5 class="portfolio__tag hero__tag">UX/UI Design</h5>
 				</div>
 				<img class="portfolio__item__img portfolio__item__img--cpy hero__img hero__img--cpy" src="img/cpy/cpyhero_mockup.png" alt="CorePower Yoga mobile app mockup">	
@@ -37,28 +37,28 @@
 
 <!-- Overview -->
 	<section class="casestudy__section white overview">
-		<div class="section__flexcontent">
+		<div class="section__flexcontent flex-center">
 			<div class="content__item">
 				<h4 class="section__title">CorePower Yoga Mobile Redesign</h4>
-				<p class="content__copy">Improve the usability by optimizing the searching flow, adding an onboarding process, and building new desired features.</p>
+				<p class="content__copy">Redesigned the CorePower Yoga mobile app for a better user experience. Built a free trial and onboarding process to attract more potential customs. Optimized the searching flow to help users locate CorePower Yoga studio easily. Improved the homepage to allow users to see class schedules at a glance.</p>
 				<p class="content__copy"><small>*Disclaimer: I am not affiliated with CorePower Yoga. All logos and trademarks belong to CorePower Yoga. This was an unsolicited design 			exploration.
 				</small></p>
 			</div>
 			<div class="overview-list">
 				<div class="overview__item">
-					<h5>My role</h5>
+					<p><strong>My role</strong></p>
 					<p>User research</p>
 					<p>Interaction design</p>
 					<p>Prototyping</p>
 					<p>User testing</p>
 				</div>
 				<div class="overview__item">
-					<h5>Timeline</h5>
+					<p><strong>Timeline</strong></p>
 					<p>7 weeks</p>
 					<p> (Jun - Aug 2019)</p>
 				</div>
 					<div class="overview__item">
-					<h5>Tools</h5>
+					<p><strong>Tools</strong></p>
 					<p>Sketch</p>
 					<p>InVision</p>
 				</div>
@@ -70,7 +70,7 @@
 	<section class="casestudy__section">
 		<div class="main_title">
 			<h1 class="number">01</h1>
-			<h2 class="title">Introduction</h2>
+			<h2 class="title">Background</h2>
 		</div>
 
 		<div class="section__flexcontent ">
@@ -79,18 +79,18 @@
 				<p class="content__copy">CorePower Yoga is the largest chain of yoga studios in the US. It has more than 200 locations nation-wide and offers different types of yoga classes.
 				</p>
 			</div>
-			<div class="content__item flex-1">
+			<div class="content__item flex-2">
 				<img src="img/cpy/cpy studio.png" alt="">
 			</div>
 		</div>
 
 			<div class="section__flexcontent flex-center flex-reverse">
-			<div class="content__item">
+			<div class="content__item flex-1">
 				<h4 class="section__title">CorePower Yoga Mobile App</h4>
 				<p class="content__copy">CorePower Yoga App allows customers to locate CorePower  studios, check class schedules, and track their activities. 
 				</p>
 			</div>
-			<div class="content__item">
+			<div class="content__item flex-2">
 				<img class="cpy_app" src="img/cpy/cpy app.png" alt="">
 			</div>
 		</div>
@@ -236,7 +236,7 @@
 		<div class="section__flexcontent flex-column flex-center">
 			<div class="content__item tc">
 				<h4 class="section__title">User Interviews</h4>
-				<p class="content__copy">I conducted user interviews with three target audiences. To observe how they interact with the CorePower yoga app, they were asked to complete specific tasks. After that, I asked them about what they liked and disliked about the app in order to understand their pain points and expectations.</p>
+				<p class="content__copy">I interviewed three target audiences. To observe how they interact with the CorePower yoga app, they were given specific tasks to complete using the app.  In addition, I asked them what they liked and disliked about the app to learn about their pain points and expectations.</p>
 			</div>
 			
 			<div class="content__item">
@@ -259,7 +259,7 @@
 		<div class="section__flexcontent flex-column flex-center">
 			<div class="content__item tc">
 				<h4 class="section__title">App Reviews</h4>
-				<p class="content__copy">I researched CorePower yoga app reviews in Apple App Store and Google Play to gather additional data on users’ demands.</p>
+				<p class="content__copy">To gather additional user feedback, I checked the Apple App Store and Google Play reviews of the CorePower yoga app.</p>
 			</div>
 			<div class="content__item app-review-imgs">
 				<img class="flex-1" src="img/cpy/app review 1.png" alt="">
@@ -269,9 +269,9 @@
 			<div class="content__item">
 				<h5 class="section__title tc">Key Findings</h5>
 				<div class="keyfindings">
-					<p class="content__copy flex-1 tc">View class schedule without logging into the app</p>
+					<p class="content__copy flex-1 tc">Users want to view class schedule without logging into the app</p>
 					<p class="content__copy flex-1 tc">Remember users often visited studio locations</p>
-					<p class="content__copy flex-1 tc">Only apply the filter when needed</p>
+					<p class="content__copy flex-1 tc">Improve the filter feature</p>
 					<p class="content__copy flex-1 tc">Add the class price</p>
 				</div>	
 			</div>
@@ -310,7 +310,7 @@
 		<div class="section__flexcontent flex-center">
 			<div class="content__item">
 				<h4 class="section__title">Context Scenarios</h4>
-				<p class="content__copy">Context Scenarios are powerful tools that I use to bridge the research-design gap. I developed three context scenarios for each persona to focus on how they would use the redesigned app to achieve their goals and also help me extract design requirements.</p>
+				<p class="content__copy">Context Scenarios are powerful tools that I used to bridge the research-design gap. I developed three context scenarios for each persona to focus on how they would use the redesigned app to achieve their goals and also helped me extract design requirements.</p>
 			</div>
 
 			<div class="content__item carousel">
@@ -348,22 +348,22 @@
 			<h4 class="section__title">Design Requirements</h4>
 			<div class="design_requirements">
 				<div class="content__item">
-					<h5 class="section__title">1. Provide new users guidance and details on how to sign up for the free trial</h5>
-					<p class="content__copy">A free trial is appealing to users, but they probably want more information before they decide to sign up for it. Guidance should explain how the free trial works, introduce different class types, and assist users in picking the right class to begin with.</p>
+					<h5 class="section__title">1. Provide the onboarding process for new users</h5>
+					<p class="content__copy">CorePower offers a free trial, which is appealing to users. But users probably want more information before they decide to sign up for it. The onboarding process would explain how the free trial works, introduce different class types, and assist users in picking the right class to begin with.</p>
 				</div>
 				<div class="content__item">
 					<h5 class="section__title">2. Visualizing search results</h5>
 					<p class="content__copy">By using a map and the relative location, users can locate the studios more easily.</p>
 				</div>
 				<div class="content__item">
-					<h5 class="section__title">3. Improve the usability of the filter</h5>
-					<p class="content__copy">Use the common filter design to make it easier to learn and use.</p>
+					<h5 class="section__title">3. Make the filter function follow the  industry conventions</h5>
+					<p class="content__copy">A conventional filter helps users know what to expect, increase learnability, and reduce confusion.</p>
 				</div>
 			</div>
 			<div class="design_requirements">
 				<div class="content__item">
 					<h5 class="section__title">4. Add a class purchase feature</h5>
-					<p class="content__copy">Users don’t have to switch to CorePower Yoga’s website to buy classes.</p>
+					<p class="content__copy">Keep consistent between the CorePower Yoga mobile app and the website.Users don’t have to switch to CorePower Yoga’s website to buy classes.</p>
 				</div>
 				<div class="content__item">
 					<h5 class="section__title">5. Allow users to browse without logging in</h5>
@@ -419,7 +419,7 @@
 	<section class="casestudy__section persona white">
 		<div class="main_title">
 			<h1 class="number">07</h1>
-			<h2 class="title">Prototyping</h2>
+			<h2 class="title">Prototyping and Testing</h2>
 		</div>
 
 <!-- paper prototyping -->
@@ -437,17 +437,18 @@
 				<div class="flex-multiple">
 					<div class="content__item">
 						<h5 class="section__title">Task 1</h5>
-						<p class="content__copy">1. Users felt confused about the yoga level page since there were only beginner and advanced levels to choose from. They were expecting intermediate level.<br>2. Users did not want to read long texts. They pointed out that the class information was too long so that they just ignored it.</p>
+						<p class="content__copy">1. On the yoga levels page, there were only beginner and advanced levels available. But users were expecting an intermediate-level option.</p>
+						<p class="content__copy">2. Users did not want to read long texts. They pointed out that the class information was too long so that they just ignored it.</p>
 					</div>
 					<div class="content__item">
 						<h5 class="section__title">Task 2</h5>
-						<p class="content__copy">1. Users said the home page was clumsy because there was no clear visual hierarchy. They also felt awkward seeing their names on the home page.
-						<br>2.The “see class schedules” button was not attached to the studio card so users did not know its function. Also, the interface didn't indicate clearly which studio was selected.
-						<br>3.Users failed to connect the bookmark icon to the function of saving classes.</p>
+						<p class="content__copy">1. Users flet the home page was clumsy. They also felt awkward seeing their names on the home page.</p>
+						<p class="content__copy">2.The “see class schedules” button was not attached to the studio card so users were not sure about its function. Also, the interface didn't indicate clearly which studio was selected.</p>
+						<p class="content__copy">3.Users failed to connect the bookmark icon to the function of saving classes.</p>
 					</div>
 						<div class="content__item">
 						<h5 class="section__title">Task 3</h5>
-						<p class="content__copy">1. Although testers completed task 3 smoothly, some complained that the home page was not clear to view and unorganized.</p>
+						<p class="content__copy">1. Although all testers successfully completed this task, some complained that the homepage had too much information and was disorganized.</p>
 					</div>
 				</div>
 			</div>
@@ -513,10 +514,10 @@
 			</div>
 		</div>
 
-		<div class="section__flexcontent flex-center">
+		<div class="section__flexcontent">
 			<div class="content__item">
 				<h4 class="section__title">Expert Review</h4>
-				<p class="content__copy">I invited Julia, who is a UX designer and also a member of CorePower Yoga, to review my design, in order to identify more usability issues. 
+				<p class="content__copy">I invited Julia, a UX designer and also a member of CorePower Yoga, to review my design. She provided the following feedback:
 				</p>
 			</div>
 			<div class="content__item">
@@ -638,7 +639,7 @@
 <!-- Find Class -->
 		<div class="section__flexcontent flex-center">
 			<div class="content__item">
-				<h4 class="section__title">Find Studio and class without logging in</h4>
+				<h4 class="section__title">Find a studio and class without logging in</h4>
 			</div>
 			<div class="content__item flex-1">
 				<img class="prototype-gif" src="img/cpy/search class.gif" alt="search class gif">
@@ -694,7 +695,7 @@
 	<section class="casestudy__section deliverables black">
 		<div class="section__flexcontent flex-center flex-reverse">
 			<div class="content__item flex-1">
-				<h4 class="section__title tc">Save class</h4>
+				<h4 class="section__title tc">Save a class</h4>
 				<img class="prototype-gif" src="img/cpy/save class.gif" alt="search class gif">	
 			</div>
 			<div class="content__item flex-1">
@@ -707,7 +708,7 @@
 	<section class="casestudy__section deliverables light-black">
 		<div class="section__flexcontent flex-center">
 			<div class="content__item flex-1">
-				<h4 class="section__title tc">Buy class</h4>
+				<h4 class="section__title tc">Buy classes</h4>
 				<img class="prototype-gif" src="img/cpy/buy class.gif" alt="search class gif">	
 			</div>
 			<div class="content__item flex-1">
@@ -726,11 +727,9 @@
 		<div class="section__flexcontent flex-center">
 			<div class="content__item">
 				<h4 class="section__title">What I Learned</h4>
-				<p class="content__copy">Through this project, I learned the entire UX design process through hands-on experience.</p>
-				<p class="content__copy">Through observing and engaging with the users, I developed a sense of empathy and understood their needs, desires, and context.</p> 
-				<p class="content__copy">When brainstorming solutions for problems, make sure to keep the users' goals in mind.  By creating personas and context scenarios (user stories), I was able to structure the interactive functions.</p>
-				<p class="content__copy">My ideas came into reality through wireframing and sketching. And user testing has helped me validate my designs.</p>
-				<p class="content__copy">Finally, UI design was not about just looking good. Color, scale, and visual weight all play a role in usability. I aimed to make my UI design both aesthetically pleasing and functional.</p>
+				<p class="content__copy">I learned the entire UX design process through hands-on experience by doing this project. Through observing and engaging with the users, I developed a sense of empathy that allowed me to understand their needs, desires, and context. When brainstorming solutions for problems, I tried to keep the users' goals in mind. </p>
+				<p class="content__copy">By creating personas and context scenarios (user stories), I was able to structure the interactive functions. My ideas came into reality through wireframing and sketching. And user testing has helped me validate my designs.</p>
+				<p class="content__copy">I also learned that UI design was not about just looking good. Color, scale, and visual weight all play a role in usability. I aimed to make my UI design both aesthetically pleasing and functional.</p>
 			</div>
 			<div class="content__item flex-1">
 				<img class="" src="img/cpy/cpyhero_mockup.png" alt="">
@@ -773,7 +772,6 @@
 						<p class="more-work__subtitle">Track and Record Wildlife</p>
 						<p class="portfolio__tag">Mobile App Design and Development</p>
 					</div>
-					</div>
 				</div>
 			</a>
 		</div>
@@ -785,12 +783,11 @@
 		</div>
 
 
-
-
 <!-- Footer -->
 	<!-- Include Footer -->
 	<?php include "parts/footer.html" ?>
 
+	</div>
 </body>
 </html>
 

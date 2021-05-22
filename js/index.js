@@ -1,3 +1,15 @@
+// Preload
+
+window.addEventListener('load', () => {
+  const preload = document.querySelector('.preload');
+  preload.classList.add('preload-finish');
+  $('.preload-transition').removeClass('preload-transition');
+})
+
+
+
+
+
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 
